@@ -1,0 +1,49 @@
+{
+  "businessName": "Nulis Educonsult and Allied Services / Hi-range Educonsult and Allied Ventures",
+  "industry": "Manufacturing",
+  "tone": "Professional and Confident",
+  "tagline": "Engineering Excellence in Manufacturing Solutions",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to Nulis Educonsult and Hi-range Educonsult – Your trusted manufacturing partners in Alimosho, Lagos. We deliver precision engineering, quality production, and innovative manufacturing solutions tailored to meet the diverse needs of Nigerian businesses and industries.",
+      "imagePrompt": "Modern industrial manufacturing facility in Lagos Nigeria, clean production floor with organized machinery and equipment, professional workers in safety gear, bright natural lighting through large windows, Nigerian industrial setting, photorealistic, high quality",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Nulis Educonsult and Allied Services, together with Hi-range Educonsult and Allied Ventures, represents a commitment to manufacturing excellence in the heart of Alimosho, Lagos. Our combined expertise spans diverse manufacturing processes, from precision machining to quality assembly and production management. Based at 8 Omoyeni Street, Akesan, Igando, we serve businesses across Lagos State and beyond with reliable, high-quality manufacturing solutions. Our team combines technical knowledge with practical experience to deliver products that meet international standards while understanding the unique requirements of the Nigerian market. Whether you need custom manufacturing, production consulting, or allied industrial services, we bring professionalism, efficiency, and integrity to every project.",
+      "imagePrompt": "Professional Nigerian manufacturing team in modern facility, diverse group of engineers and technicians examining blueprints and quality control documents, industrial background with organized workspace, natural lighting, authentic Lagos industrial environment, photorealistic",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "**Precision Manufacturing** – Advanced machining and fabrication services using modern equipment and skilled craftsmanship to produce components that meet exact specifications.\n\n**Production Consulting** – Expert guidance on optimizing your manufacturing processes, improving efficiency, reducing waste, and enhancing product quality.\n\n**Quality Control & Assurance** – Comprehensive inspection and testing services to ensure every product meets industry standards and client expectations.\n\n**Custom Product Development** – From concept to completion, we work with you to design and manufacture custom solutions tailored to your specific needs.\n\n**Industrial Supply & Allied Services** – Sourcing and supplying quality materials, components, and equipment for manufacturing operations across various industries.\n\n**Technical Training & Support** – Capacity building programs to help your team develop manufacturing skills and maintain operational excellence.",
+      "imagePrompt": "Grid layout of Nigerian manufacturing services, showing precision machinery in action, quality control inspection with calipers and measuring tools, custom product assembly, industrial materials and components, training session with workers, Lagos industrial park setting, photorealistic, professional lighting",
+      "layout": "grid"
+    },
+    {
+      "id": "why-choose-us",
+      "name": "Why Choose Us",
+      "copy": "**Local Expertise, Global Standards** – We understand the Nigerian business environment while maintaining international quality benchmarks in all our manufacturing processes.\n\n**Dual Strength, Single Vision** – The combined capabilities of Nulis Educonsult and Hi-range Educonsult provide you with comprehensive manufacturing solutions under one roof.\n\n**Proven Track Record** – Years of successful project delivery across Alimosho and greater Lagos have built our reputation for reliability and excellence.\n\n**Flexible Solutions** – Whether you need small-batch custom manufacturing or large-scale production, we adapt our services to match your requirements and budget.\n\n**Strategic Location** – Our Akesan, Igando facility offers convenient access for clients across Alimosho LGA and neighboring areas, with efficient logistics support.\n\n**Committed Partnership** – We don't just manufacture products; we build long-term relationships based on trust, quality, and consistent delivery.",
+      "imagePrompt": "Successful Nigerian manufacturing business handshake between client and engineer in modern facility, quality finished products displayed on workbench, certificates and awards on wall, clean organized production floor in background, professional Lagos industrial setting, natural lighting, photorealistic",
+      "layout": "cards"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to discuss your manufacturing needs? Get in touch with Nulis Educonsult and Hi-range Educonsult today. Our team is available to answer your questions, provide quotations, and schedule facility visits.\n\n**Visit Our Facility:**\n8 Omoyeni Street, Akesan\nIgando, Alimosho L.G.A\nLagos State, Nigeria\n\n**Call Us:**\n+234 813 508 8195\n\n**Business Hours:**\nMonday – Friday: 8:00 AM – 5:00 PM\nSaturday: 9:00 AM – 2:00 PM\n\nWhether you're planning a new manufacturing project, seeking production consulting, or need reliable industrial services, we're here to help. Contact us today and experience the difference that professional manufacturing expertise makes.",
+      "imagePrompt": "Welcoming entrance of modern Nigerian manufacturing facility, clear signage showing company name, professional reception area, map of Alimosho Lagos area on wall, friendly staff member greeting visitor, clean organized environment, Igando Lagos industrial area, photorealistic, inviting atmosphere",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "+234 813 508 8195",
+    "email": "",
+    "address": "8 Omoyeni Street, Akesan, Igando, Alimosho L.G.A, Lagos State, Nigeria",
+    "whatsapp": "https://wa.me/2348135088195"
+  }
+}
