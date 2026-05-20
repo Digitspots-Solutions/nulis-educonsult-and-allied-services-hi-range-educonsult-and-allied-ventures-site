@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nulis Educonsult and Allied Services / Hi-range Educonsult and Allied Ventures - Engineering Excellence in Manufacturing Solutions</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap">
+    <title>Goshen Farms Snacks & Treats Limited - Fresh Snacks, Quick Bites, Pure Delight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #182a2f;
-            --color-accent: #d4523a;
-            --color-bg: #F8F8F6;
-            --color-text: #1B2E3C;
-            --color-surface: #264352;
-            --color-secondary-accent: #22745c;
-            --font-display: 'Plus Jakarta Sans', sans-serif;
-            --font-body: 'Lato', sans-serif;
-            --border-radius: 16px;
+            --color-primary: #371206;
+            --color-accent: #ee451a;
+            --color-bg: #FDF2EC;
+            --color-text: #3C1008;
+            --color-surface: #591813;
+            --color-secondary-accent: #4e7d3a;
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Source Sans 3', sans-serif;
+            --border-radius: 14px;
         }
 
         * {
@@ -32,13 +34,8 @@
             font-family: var(--font-body);
             color: var(--color-text);
             background-color: var(--color-bg);
-            line-height: 1.7;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: var(--font-display);
-            font-weight: 700;
-            line-height: 1.2;
+            line-height: 1.6;
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' /%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
         }
 
         @keyframes fadeUp {
@@ -52,44 +49,42 @@
             }
         }
 
-        /* Navigation */
-        nav {
+        header {
             position: sticky;
             top: 0;
-            background: rgba(248, 248, 246, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 1rem 5%;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
             z-index: 1000;
+            background: rgba(253, 242, 236, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
             animation: fadeUp 0.6s ease forwards;
         }
 
-        .nav-container {
+        nav {
             max-width: 1400px;
             margin: 0 auto;
+            padding: 1rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .nav-logo {
+        .logo {
             font-family: var(--font-display);
-            font-size: 1.25rem;
-            font-weight: 700;
+            font-size: 1.5rem;
+            font-weight: 600;
             color: var(--color-primary);
-            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
-            gap: 2rem;
             list-style: none;
+            gap: 2rem;
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--color-text);
-            font-weight: 500;
+            font-weight: 400;
             transition: color 0.3s ease;
         }
 
@@ -131,7 +126,7 @@
             width: 300px;
             height: calc(100vh - 70px);
             background: var(--color-bg);
-            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
             transition: right 0.3s ease;
             z-index: 999;
             padding: 2rem;
@@ -163,7 +158,12 @@
             color: var(--color-accent);
         }
 
-        /* Hero Section */
+        section {
+            padding: 80px 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
         #hero {
             position: relative;
             min-height: 100vh;
@@ -171,24 +171,19 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-            color: white;
+            padding: 0;
             overflow: hidden;
             animation: fadeUp 0.6s ease forwards;
         }
 
-        .hero-bg {
+        .hero-image {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            z-index: 1;
-        }
-
-        .hero-bg img {
-            width: 100%;
-            height: 100%;
             object-fit: cover;
+            z-index: 1;
         }
 
         .hero-overlay {
@@ -204,79 +199,58 @@
         .hero-content {
             position: relative;
             z-index: 3;
+            color: white;
             max-width: 900px;
             padding: 2rem;
         }
 
         .hero-content h1 {
+            font-family: var(--font-display);
             font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            line-height: 1.1;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero-content .tagline {
+            font-size: 1.8rem;
+            font-family: var(--font-display);
+            font-style: italic;
+            margin-bottom: 2rem;
+            color: #f5d5c5;
         }
 
         .hero-content p {
-            font-size: 1.25rem;
+            font-size: 1.2rem;
             margin-bottom: 2rem;
-            opacity: 0.95;
+            line-height: 1.8;
         }
 
         .cta-button {
             display: inline-block;
+            padding: 1rem 2.5rem;
             background: var(--color-accent);
             color: white;
-            padding: 1rem 2.5rem;
             text-decoration: none;
             border-radius: var(--border-radius);
             font-weight: 600;
             font-size: 1.1rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 15px rgba(212, 82, 58, 0.3);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(238, 69, 26, 0.3);
         }
 
         .cta-button:hover {
+            background: #d63d16;
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(212, 82, 58, 0.4);
+            box-shadow: 0 6px 20px rgba(238, 69, 26, 0.4);
         }
 
-        /* Section Styles */
-        section {
-            padding: 80px 5%;
+        #about {
             animation: fadeUp 0.6s ease forwards;
-        }
-
-        section:nth-child(2) {
             animation-delay: 0.1s;
         }
 
-        section:nth-child(3) {
-            animation-delay: 0.2s;
-        }
-
-        section:nth-child(4) {
-            animation-delay: 0.3s;
-        }
-
-        section:nth-child(5) {
-            animation-delay: 0.4s;
-        }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-
-        h2 {
-            font-size: 2.75rem;
-            margin-bottom: 1.5rem;
-            color: var(--color-primary);
-        }
-
-        /* About Section */
-        #about {
-            background: white;
-        }
-
-        .about-split {
+        .about-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 4rem;
@@ -284,121 +258,167 @@
         }
 
         .about-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
             border-radius: var(--border-radius);
-            overflow: hidden;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
         }
 
-        .about-image img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
+        .about-content h2 {
+            font-family: var(--font-display);
+            font-size: 2.8rem;
+            color: var(--color-primary);
+            margin-bottom: 1.5rem;
         }
 
         .about-content p {
             font-size: 1.1rem;
             line-height: 1.8;
+            margin-bottom: 1rem;
         }
 
-        /* Services Section */
         #services {
-            background: var(--color-bg);
+            background: white;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.2s;
+        }
+
+        #services h2 {
+            font-family: var(--font-display);
+            font-size: 2.8rem;
+            color: var(--color-primary);
+            text-align: center;
+            margin-bottom: 3rem;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin-top: 3rem;
+            margin-top: 2rem;
         }
 
         .service-card {
-            background: white;
+            background: var(--color-bg);
             padding: 2rem;
             border-radius: var(--border-radius);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border-left: 4px solid var(--color-accent);
         }
 
         .service-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
         }
 
         .service-card h3 {
-            color: var(--color-accent);
-            margin-bottom: 1rem;
+            font-family: var(--font-display);
             font-size: 1.5rem;
+            color: var(--color-primary);
+            margin-bottom: 1rem;
         }
 
         .service-card p {
+            font-size: 1rem;
             line-height: 1.7;
         }
 
-        /* Why Choose Us Section */
-        #why-choose-us {
-            background: white;
+        #testimonials {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.3s;
         }
 
-        .why-grid {
+        #testimonials h2 {
+            font-family: var(--font-display);
+            font-size: 2.8rem;
+            color: var(--color-primary);
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-left: 4px solid var(--color-secondary-accent);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            font-family: var(--font-display);
+            font-size: 4rem;
+            color: var(--color-accent);
+            opacity: 0.2;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        .testimonial-card p {
+            font-size: 1rem;
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--color-primary);
+            font-style: normal;
+        }
+
+        #contact {
+            background: var(--color-surface);
+            color: white;
+            text-align: center;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.4s;
+        }
+
+        #contact h2 {
+            font-family: var(--font-display);
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+        }
+
+        #contact p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 2rem;
             margin-top: 3rem;
         }
 
-        .why-card {
-            background: var(--color-bg);
-            padding: 2rem;
+        .contact-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem 2rem;
             border-radius: var(--border-radius);
-            border-left: 4px solid var(--color-secondary-accent);
-        }
-
-        .why-card h3 {
-            color: var(--color-primary);
-            margin-bottom: 0.75rem;
-            font-size: 1.4rem;
-        }
-
-        .why-card p {
-            line-height: 1.7;
-        }
-
-        /* Contact Section */
-        #contact {
-            background: var(--color-surface);
-            color: white;
-        }
-
-        #contact h2 {
-            color: white;
-        }
-
-        .contact-content {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-
-        .contact-content p {
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-            line-height: 1.8;
-        }
-
-        .contact-details {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            margin: 3rem 0;
-            text-align: left;
+            min-width: 250px;
         }
 
         .contact-item h3 {
-            color: var(--color-accent);
-            margin-bottom: 0.5rem;
+            font-family: var(--font-display);
             font-size: 1.3rem;
+            margin-bottom: 0.5rem;
         }
 
         .contact-item a {
@@ -411,50 +431,79 @@
             color: var(--color-accent);
         }
 
-        /* WhatsApp Floating Button */
+        .whatsapp-button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 1rem 2.5rem;
+            background: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background: #20ba5a;
+            transform: translateY(-2px);
+        }
+
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: #25D366;
-            color: white;
             width: 60px;
             height: 60px;
+            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 2rem;
-            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-            z-index: 999;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+            transition: all 0.3s ease;
             text-decoration: none;
-            transition: transform 0.3s ease;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
         }
 
-        /* Footer */
+        .whatsapp-float::before {
+            content: "💬";
+            font-size: 2rem;
+        }
+
         footer {
             background: var(--color-primary);
             color: white;
             text-align: center;
-            padding: 2rem 5%;
+            padding: 2rem;
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.5s;
         }
 
-        /* Responsive */
+        footer p {
+            font-size: 0.95rem;
+        }
+
         @media (max-width: 1024px) {
             section {
-                padding: 60px 5%;
-            }
-
-            h2 {
-                font-size: 2.25rem;
+                padding: 60px 2rem;
             }
 
             .hero-content h1 {
-                font-size: 2.75rem;
+                font-size: 2.8rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1.5rem;
+            }
+
+            .about-container {
+                gap: 3rem;
             }
         }
 
@@ -462,56 +511,75 @@
             .nav-links {
                 display: none;
             }
-
+            
             .mobile-menu-btn {
                 display: flex;
             }
 
             section {
-                padding: 48px 5%;
-            }
-
-            h2 {
-                font-size: 2rem;
+                padding: 48px 1.5rem;
             }
 
             .hero-content h1 {
-                font-size: 2rem;
+                font-size: 2.2rem;
+            }
+
+            .hero-content .tagline {
+                font-size: 1.3rem;
             }
 
             .hero-content p {
-                font-size: 1.1rem;
+                font-size: 1rem;
             }
 
-            .about-split {
+            .about-container {
                 grid-template-columns: 1fr;
                 gap: 2rem;
             }
 
+            .about-image {
+                height: 350px;
+            }
+
+            .about-content h2,
+            #services h2,
+            #testimonials h2,
+            #contact h2 {
+                font-size: 2.2rem;
+            }
+
             .services-grid,
-            .why-grid {
+            .testimonials-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
-                font-size: 1.5rem;
                 bottom: 20px;
                 right: 20px;
+            }
+
+            .whatsapp-float::before {
+                font-size: 1.5rem;
             }
         }
     </style>
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <a href="#hero" class="nav-logo">Nulis & Hi-range Educonsult</a>
+    <header>
+        <nav>
+            <div class="logo">Goshen Farms</div>
             <ul class="nav-links">
                 <li><a href="#hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#services">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="mobile-menu-btn">
@@ -519,147 +587,119 @@
                 <span></span>
                 <span></span>
             </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-    </nav>
-
-    <div class="mobile-menu">
-        <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#why-choose-us">Why Choose Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
+    </header>
 
     <section id="hero">
-        <div class="hero-bg">
-            <img src="https://images.pexels.com/photos/7178310/pexels-photo-7178310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Manufacturing Excellence">
-        </div>
+        <img src="https://images.pexels.com/photos/15509599/pexels-photo-15509599.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Goshen Farms Snacks" class="hero-image">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>Engineering Excellence in Manufacturing Solutions</h1>
-            <p>Welcome to Nulis Educonsult and Hi-range Educonsult – Your trusted manufacturing partners in Alimosho, Lagos. We deliver precision engineering, quality production, and innovative manufacturing solutions tailored to meet the diverse needs of Nigerian businesses and industries.</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+            <h1>Goshen Farms Snacks & Treats Limited</h1>
+            <p class="tagline">Fresh Snacks, Quick Bites, Pure Delight</p>
+            <p>Welcome to Goshen Farms Snacks & Treats Limited. Your trusted partner for delicious, quality snacks and quick bites across Lagos. From wholesome farm-fresh treats to convenient quick bites, we bring taste and nutrition to your doorstep. Discover the Goshen Farms difference today.</p>
+            <a href="#contact" class="cta-button">Order Now</a>
         </div>
     </section>
 
     <section id="about">
-        <div class="container">
-            <div class="about-split">
-                <div class="about-image">
-                    <img src="https://images.pexels.com/photos/37198885/pexels-photo-37198885.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About Nulis and Hi-range Educonsult">
-                </div>
-                <div class="about-content">
-                    <h2>About Us</h2>
-                    <p>Nulis Educonsult and Allied Services, together with Hi-range Educonsult and Allied Ventures, represents a commitment to manufacturing excellence in the heart of Alimosho, Lagos. Our combined expertise spans diverse manufacturing processes, from precision machining to quality assembly and production management. Based at 8 Omoyeni Street, Akesan, Igando, we serve businesses across Lagos State and beyond with reliable, high-quality manufacturing solutions. Our team combines technical knowledge with practical experience to deliver products that meet international standards while understanding the unique requirements of the Nigerian market. Whether you need custom manufacturing, production consulting, or allied industrial services, we bring professionalism, efficiency, and integrity to every project.</p>
-                </div>
+        <div class="about-container">
+            <img src="https://images.pexels.com/photos/12836405/pexels-photo-12836405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Goshen Farms Facility" class="about-image">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Goshen Farms Snacks & Treats Limited (also known as Goshen Farms Quick Bites Co) is a leading FoodTech company based in Alimosho, Lagos. Founded by a Beverage Tech Strategist with a passion for quality and innovation, we specialize in delivering fresh, delicious snacks and quick bites that satisfy your cravings while meeting the highest standards of hygiene and taste.</p>
+                <p>Our mission is simple: to make nutritious, affordable snacking accessible to every Nigerian household. From our facility at 8 Omoyeni Street, AKESAN, Igando, we serve communities across Lagos with commitment, care, and consistency. At Goshen Farms, every bite tells a story of freshness and excellence.</p>
             </div>
         </div>
     </section>
 
     <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Precision Manufacturing</h3>
-                    <p>Advanced machining and fabrication services using modern equipment and skilled craftsmanship to produce components that meet exact specifications.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Production Consulting</h3>
-                    <p>Expert guidance on optimizing your manufacturing processes, improving efficiency, reducing waste, and enhancing product quality.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Quality Control & Assurance</h3>
-                    <p>Comprehensive inspection and testing services to ensure every product meets industry standards and client expectations.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Custom Product Development</h3>
-                    <p>From concept to completion, we work with you to design and manufacture custom solutions tailored to your specific needs.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Industrial Supply & Allied Services</h3>
-                    <p>Sourcing and supplying quality materials, components, and equipment for manufacturing operations across various industries.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Technical Training & Support</h3>
-                    <p>Capacity building programs to help your team develop manufacturing skills and maintain operational excellence.</p>
-                </div>
+        <h2>Our Products & Services</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; font-size: 1.1rem;">We offer an extensive range of snacks and quick bites perfect for every occasion:</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Premium Snack Packages</h3>
+                <p>Carefully curated selections of Nigerian favorites including plantain chips, chin-chin, coconut candy, and groundnuts. Perfect for parties, offices, or personal enjoyment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Quick Bites on Demand</h3>
+                <p>Fresh puff-puff, meat pie, fish rolls, sausage rolls, and samosas prepared daily and delivered hot to your location.</p>
+            </div>
+            <div class="service-card">
+                <h3>Beverage Solutions</h3>
+                <p>Complementary drink options including zobo, chapman, fresh fruit juices, and soft drinks to pair perfectly with our snacks.</p>
+            </div>
+            <div class="service-card">
+                <h3>Bulk & Corporate Orders</h3>
+                <p>Special packages for events, conferences, staff meetings, and celebrations. We handle orders of any size with professionalism and punctuality.</p>
+            </div>
+            <div class="service-card">
+                <h3>Custom Snack Boxes</h3>
+                <p>Personalized gift boxes and hampers for special occasions, branded packaging available for corporate gifts.</p>
             </div>
         </div>
+        <p style="text-align: center; margin-top: 3rem; font-size: 1.1rem; font-style: italic;">All our products are made with quality ingredients, packaged hygienically, and delivered fresh. We combine traditional Nigerian recipes with modern food safety standards.</p>
     </section>
 
-    <section id="why-choose-us">
-        <div class="container">
-            <h2>Why Choose Us</h2>
-            <div class="why-grid">
-                <div class="why-card">
-                    <h3>Local Expertise, Global Standards</h3>
-                    <p>We understand the Nigerian business environment while maintaining international quality benchmarks in all our manufacturing processes.</p>
-                </div>
-                <div class="why-card">
-                    <h3>Dual Strength, Single Vision</h3>
-                    <p>The combined capabilities of Nulis Educonsult and Hi-range Educonsult provide you with comprehensive manufacturing solutions under one roof.</p>
-                </div>
-                <div class="why-card">
-                    <h3>Proven Track Record</h3>
-                    <p>Years of successful project delivery across Alimosho and greater Lagos have built our reputation for reliability and excellence.</p>
-                </div>
-                <div class="why-card">
-                    <h3>Flexible Solutions</h3>
-                    <p>Whether you need small-batch custom manufacturing or large-scale production, we adapt our services to match your requirements and budget.</p>
-                </div>
-                <div class="why-card">
-                    <h3>Strategic Location</h3>
-                    <p>Our Akesan, Igando facility offers convenient access for clients across Alimosho LGA and neighboring areas, with efficient logistics support.</p>
-                </div>
-                <div class="why-card">
-                    <h3>Committed Partnership</h3>
-                    <p>We don't just manufacture products; we build long-term relationships based on trust, quality, and consistent delivery.</p>
-                </div>
+    <section id="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p>Goshen Farms never disappoints! Their plantain chips are the crunchiest in Lagos, and delivery is always on time. My family's favorite snack supplier!</p>
+                <p class="testimonial-author">- Mrs. Adebayo, Ikeja</p>
+            </div>
+            <div class="testimonial-card">
+                <p>I ordered 200 snack packs for our company's end-of-year party. The quality was exceptional, packaging was professional, and our staff couldn't stop asking where we got them from. Highly recommended!</p>
+                <p class="testimonial-author">- Mr. Okonkwo, HR Manager, Alimosho</p>
+            </div>
+            <div class="testimonial-card">
+                <p>As someone who values hygiene, I appreciate how clean and well-packaged everything from Goshen Farms is. Their puff-puff is always fresh and tasty. Worth every naira!</p>
+                <p class="testimonial-author">- Bisi T., Igando</p>
+            </div>
+            <div class="testimonial-card">
+                <p>Best quick bites in the neighborhood! I can always count on Goshen Farms when I need quality snacks for unexpected guests. Their customer service is also top-notch.</p>
+                <p class="testimonial-author">- Pastor Williams, Akesan</p>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <div class="container">
-            <div class="contact-content">
-                <h2>Contact Us</h2>
-                <p>Ready to discuss your manufacturing needs? Get in touch with Nulis Educonsult and Hi-range Educonsult today. Our team is available to answer your questions, provide quotations, and schedule facility visits.</p>
-                
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <h3>Visit Our Facility:</h3>
-                        <p>8 Omoyeni Street, Akesan<br>
-                        Igando, Alimosho L.G.A<br>
-                        Lagos State, Nigeria</p>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <h3>Call Us:</h3>
-                        <p><a href="tel:+2348135088195">+234 813 508 8195</a></p>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <h3>Business Hours:</h3>
-                        <p>Monday – Friday: 8:00 AM – 5:00 PM<br>
-                        Saturday: 9:00 AM – 2:00 PM</p>
-                    </div>
-                </div>
-                
-                <p>Whether you're planning a new manufacturing project, seeking production consulting, or need reliable industrial services, we're here to help. Contact us today and experience the difference that professional manufacturing expertise makes.</p>
+        <h2>Get In Touch</h2>
+        <p>Ready to enjoy fresh, delicious snacks? Contact Goshen Farms Snacks & Treats Limited today!</p>
+        <p>Visit our facility at 8 Omoyeni Street, AKESAN, Igando, Alimosho L.G.A, Lagos, or reach us via phone and WhatsApp for orders, inquiries, and special requests. We're here to serve you with the best snacks Lagos has to offer.</p>
+        <p>Whether you need a small pack for personal enjoyment or bulk orders for your next event, Goshen Farms Quick Bites Co is just a call away. Let us make your snacking experience memorable!</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <a href="tel:+2348135088195">+234 813 508 8195</a>
+            </div>
+            <div class="contact-item">
+                <h3>Email</h3>
+                <a href="mailto:info@goshenfarmsng.com">info@goshenfarmsng.com</a>
+            </div>
+            <div class="contact-item">
+                <h3>Address</h3>
+                <p>8 Omoyeni Street, AKESAN, Igando<br>Alimosho L.G.A, Lagos, Nigeria</p>
             </div>
         </div>
+        <p style="margin-top: 2rem; font-size: 1rem;">Business Hours: Monday - Saturday, 8:00 AM - 7:00 PM<br>Sunday: By appointment only</p>
+        <p style="font-size: 0.95rem; margin-top: 1rem;">We deliver across Alimosho and surrounding areas in Lagos. Minimum order may apply for delivery outside Igando axis.</p>
+        <a href="https://wa.me/2348135088195" class="whatsapp-button" target="_blank">Message Us on WhatsApp</a>
     </section>
 
-    <footer>
-        <p>&copy; 2024 Nulis Educonsult and Allied Services / Hi-range Educonsult and Allied Ventures. All rights reserved.</p>
-    </footer>
+    <a href="https://wa.me/2348135088195" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp"></a>
 
-    <a href="https://wa.me/2348135088195" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
-        <span>💬</span>
-    </a>
+    <footer>
+        <p>&copy; 2024 Goshen Farms Snacks & Treats Limited. All rights reserved.</p>
+    </footer>
 
     <script>
         // Mobile menu toggle
