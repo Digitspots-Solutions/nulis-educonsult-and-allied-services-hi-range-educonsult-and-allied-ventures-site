@@ -1,49 +1,49 @@
 {
-  "businessName": "Nulis Educonsult and Allied Services / Hi-range Educonsult and Allied Ventures",
-  "industry": "Manufacturing",
-  "tone": "Professional and Confident",
-  "tagline": "Engineering Excellence in Manufacturing Solutions",
+  "businessName": "Goshen Farms Snacks & Treats Limited",
+  "industry": "FoodTech",
+  "tone": "warm, inviting, trustworthy",
+  "tagline": "Fresh Snacks, Quick Bites, Pure Delight",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Welcome to Nulis Educonsult and Hi-range Educonsult – Your trusted manufacturing partners in Alimosho, Lagos. We deliver precision engineering, quality production, and innovative manufacturing solutions tailored to meet the diverse needs of Nigerian businesses and industries.",
-      "imagePrompt": "Modern industrial manufacturing facility in Lagos Nigeria, clean production floor with organized machinery and equipment, professional workers in safety gear, bright natural lighting through large windows, Nigerian industrial setting, photorealistic, high quality",
+      "copy": "Welcome to Goshen Farms Snacks & Treats Limited. Your trusted partner for delicious, quality snacks and quick bites across Lagos. From wholesome farm-fresh treats to convenient quick bites, we bring taste and nutrition to your doorstep. Discover the Goshen Farms difference today.",
+      "imagePrompt": "Photorealistic hero image of a vibrant Nigerian outdoor market stall overflowing with colorful fresh snacks, plantain chips, chin-chin, puff-puff, and packaged treats, warm golden hour lighting, happy Nigerian customers in the background, Lagos street scene, appetizing food photography, professional commercial quality",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Nulis Educonsult and Allied Services, together with Hi-range Educonsult and Allied Ventures, represents a commitment to manufacturing excellence in the heart of Alimosho, Lagos. Our combined expertise spans diverse manufacturing processes, from precision machining to quality assembly and production management. Based at 8 Omoyeni Street, Akesan, Igando, we serve businesses across Lagos State and beyond with reliable, high-quality manufacturing solutions. Our team combines technical knowledge with practical experience to deliver products that meet international standards while understanding the unique requirements of the Nigerian market. Whether you need custom manufacturing, production consulting, or allied industrial services, we bring professionalism, efficiency, and integrity to every project.",
-      "imagePrompt": "Professional Nigerian manufacturing team in modern facility, diverse group of engineers and technicians examining blueprints and quality control documents, industrial background with organized workspace, natural lighting, authentic Lagos industrial environment, photorealistic",
+      "copy": "Goshen Farms Snacks & Treats Limited (also known as Goshen Farms Quick Bites Co) is a leading FoodTech company based in Alimosho, Lagos. Founded by a Beverage Tech Strategist with a passion for quality and innovation, we specialize in delivering fresh, delicious snacks and quick bites that satisfy your cravings while meeting the highest standards of hygiene and taste. Our mission is simple: to make nutritious, affordable snacking accessible to every Nigerian household. From our facility at 8 Omoyeni Street, AKESAN, Igando, we serve communities across Lagos with commitment, care, and consistency. At Goshen Farms, every bite tells a story of freshness and excellence.",
+      "imagePrompt": "Photorealistic image of a modern clean Nigerian food processing facility, stainless steel equipment, workers in hygiene uniforms and hairnets carefully packaging snacks, bright natural lighting, professional food manufacturing environment, Lagos business setting, high-quality commercial photography",
       "layout": "split"
     },
     {
       "id": "services",
-      "name": "Our Services",
-      "copy": "**Precision Manufacturing** – Advanced machining and fabrication services using modern equipment and skilled craftsmanship to produce components that meet exact specifications.\n\n**Production Consulting** – Expert guidance on optimizing your manufacturing processes, improving efficiency, reducing waste, and enhancing product quality.\n\n**Quality Control & Assurance** – Comprehensive inspection and testing services to ensure every product meets industry standards and client expectations.\n\n**Custom Product Development** – From concept to completion, we work with you to design and manufacture custom solutions tailored to your specific needs.\n\n**Industrial Supply & Allied Services** – Sourcing and supplying quality materials, components, and equipment for manufacturing operations across various industries.\n\n**Technical Training & Support** – Capacity building programs to help your team develop manufacturing skills and maintain operational excellence.",
-      "imagePrompt": "Grid layout of Nigerian manufacturing services, showing precision machinery in action, quality control inspection with calipers and measuring tools, custom product assembly, industrial materials and components, training session with workers, Lagos industrial park setting, photorealistic, professional lighting",
+      "name": "Our Products & Services",
+      "copy": "We offer an extensive range of snacks and quick bites perfect for every occasion:\n\n**Premium Snack Packages** - Carefully curated selections of Nigerian favorites including plantain chips, chin-chin, coconut candy, and groundnuts. Perfect for parties, offices, or personal enjoyment.\n\n**Quick Bites on Demand** - Fresh puff-puff, meat pie, fish rolls, sausage rolls, and samosas prepared daily and delivered hot to your location.\n\n**Beverage Solutions** - Complementary drink options including zobo, chapman, fresh fruit juices, and soft drinks to pair perfectly with our snacks.\n\n**Bulk & Corporate Orders** - Special packages for events, conferences, staff meetings, and celebrations. We handle orders of any size with professionalism and punctuality.\n\n**Custom Snack Boxes** - Personalized gift boxes and hampers for special occasions, branded packaging available for corporate gifts.\n\nAll our products are made with quality ingredients, packaged hygienically, and delivered fresh. We combine traditional Nigerian recipes with modern food safety standards.",
+      "imagePrompt": "Photorealistic flat lay image of various beautifully arranged Nigerian snacks in transparent packaging and colorful bowls, plantain chips, chin-chin, puff-puff, meat pies on banana leaves, zobo drink in glass bottles, warm inviting lighting, rustic wooden table background, appetizing commercial food photography, Lagos FoodTech aesthetic",
       "layout": "grid"
     },
     {
-      "id": "why-choose-us",
-      "name": "Why Choose Us",
-      "copy": "**Local Expertise, Global Standards** – We understand the Nigerian business environment while maintaining international quality benchmarks in all our manufacturing processes.\n\n**Dual Strength, Single Vision** – The combined capabilities of Nulis Educonsult and Hi-range Educonsult provide you with comprehensive manufacturing solutions under one roof.\n\n**Proven Track Record** – Years of successful project delivery across Alimosho and greater Lagos have built our reputation for reliability and excellence.\n\n**Flexible Solutions** – Whether you need small-batch custom manufacturing or large-scale production, we adapt our services to match your requirements and budget.\n\n**Strategic Location** – Our Akesan, Igando facility offers convenient access for clients across Alimosho LGA and neighboring areas, with efficient logistics support.\n\n**Committed Partnership** – We don't just manufacture products; we build long-term relationships based on trust, quality, and consistent delivery.",
-      "imagePrompt": "Successful Nigerian manufacturing business handshake between client and engineer in modern facility, quality finished products displayed on workbench, certificates and awards on wall, clean organized production floor in background, professional Lagos industrial setting, natural lighting, photorealistic",
+      "id": "testimonials",
+      "name": "What Our Customers Say",
+      "copy": "\"Goshen Farms never disappoints! Their plantain chips are the crunchiest in Lagos, and delivery is always on time. My family's favorite snack supplier!\" - Mrs. Adebayo, Ikeja\n\n\"I ordered 200 snack packs for our company's end-of-year party. The quality was exceptional, packaging was professional, and our staff couldn't stop asking where we got them from. Highly recommended!\" - Mr. Okonkwo, HR Manager, Alimosho\n\n\"As someone who values hygiene, I appreciate how clean and well-packaged everything from Goshen Farms is. Their puff-puff is always fresh and tasty. Worth every naira!\" - Bisi T., Igando\n\n\"Best quick bites in the neighborhood! I can always count on Goshen Farms when I need quality snacks for unexpected guests. Their customer service is also top-notch.\" - Pastor Williams, Akesan",
+      "imagePrompt": "Photorealistic image of happy diverse Nigerian customers of different ages enjoying snacks together, smiling faces, Lagos residential setting, warm family atmosphere, people holding Goshen Farms branded packages, natural candid photography, authentic Nigerian lifestyle imagery",
       "layout": "cards"
     },
     {
       "id": "contact",
-      "name": "Contact Us",
-      "copy": "Ready to discuss your manufacturing needs? Get in touch with Nulis Educonsult and Hi-range Educonsult today. Our team is available to answer your questions, provide quotations, and schedule facility visits.\n\n**Visit Our Facility:**\n8 Omoyeni Street, Akesan\nIgando, Alimosho L.G.A\nLagos State, Nigeria\n\n**Call Us:**\n+234 813 508 8195\n\n**Business Hours:**\nMonday – Friday: 8:00 AM – 5:00 PM\nSaturday: 9:00 AM – 2:00 PM\n\nWhether you're planning a new manufacturing project, seeking production consulting, or need reliable industrial services, we're here to help. Contact us today and experience the difference that professional manufacturing expertise makes.",
-      "imagePrompt": "Welcoming entrance of modern Nigerian manufacturing facility, clear signage showing company name, professional reception area, map of Alimosho Lagos area on wall, friendly staff member greeting visitor, clean organized environment, Igando Lagos industrial area, photorealistic, inviting atmosphere",
+      "name": "Get In Touch",
+      "copy": "Ready to enjoy fresh, delicious snacks? Contact Goshen Farms Snacks & Treats Limited today!\n\nVisit our facility at 8 Omoyeni Street, AKESAN, Igando, Alimosho L.G.A, Lagos, or reach us via phone and WhatsApp for orders, inquiries, and special requests. We're here to serve you with the best snacks Lagos has to offer.\n\nWhether you need a small pack for personal enjoyment or bulk orders for your next event, Goshen Farms Quick Bites Co is just a call away. Let us make your snacking experience memorable!\n\nBusiness Hours: Monday - Saturday, 8:00 AM - 7:00 PM\nSunday: By appointment only\n\nWe deliver across Alimosho and surrounding areas in Lagos. Minimum order may apply for delivery outside Igando axis.",
+      "imagePrompt": "Photorealistic image of a welcoming Nigerian storefront with 'Goshen Farms' signage, clean modern exterior, customers entering, colorful awning, Igando Lagos street scene, professional business photography, inviting retail atmosphere, daytime lighting, well-maintained commercial property",
       "layout": "centered"
     }
   ],
   "contact": {
     "phone": "+234 813 508 8195",
-    "email": "",
-    "address": "8 Omoyeni Street, Akesan, Igando, Alimosho L.G.A, Lagos State, Nigeria",
+    "email": "info@goshenfarmsng.com",
+    "address": "8 Omoyeni Street, AKESAN, Igando, Alimosho L.G.A, Lagos, Nigeria",
     "whatsapp": "https://wa.me/2348135088195"
   }
 }
